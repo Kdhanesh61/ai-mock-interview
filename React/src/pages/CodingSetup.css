@@ -1,0 +1,189 @@
+.coding-setup {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #f5f7fb;
+
+    padding: 30px;
+}
+
+
+.coding-setup-card {
+    width: 100%;
+
+    max-width: 550px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 8px 30px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+.coding-setup-icon {
+    font-size: 50px;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+
+.coding-setup-card h1 {
+    text-align: center;
+
+    margin: 0;
+
+    color: #111827;
+
+    font-size: 30px;
+}
+
+
+.coding-setup-description {
+    text-align: center;
+
+    color: #6b7280;
+
+    margin: 12px 0 30px;
+
+    line-height: 1.6;
+}
+
+
+.setup-group {
+    margin-bottom: 22px;
+}
+
+
+.setup-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: 600;
+
+    color: #374151;
+}
+
+
+.setup-group select {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    background: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    outline: none;
+}
+
+
+.setup-group select:focus {
+    border-color: #2563eb;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(37, 99, 235, 0.1);
+}
+
+
+.coding-features {
+    background: #f8fafc;
+
+    border-radius: 10px;
+
+    padding: 18px;
+
+    margin: 25px 0;
+
+    color: #374151;
+
+    line-height: 2;
+}
+
+
+.setup-buttons {
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+
+
+.back-button,
+.start-coding-button {
+    flex: 1;
+
+    padding: 13px;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+
+.back-button {
+    background: white;
+
+    border: 1px solid #d1d5db;
+
+    color: #374151;
+}
+
+
+.back-button:hover {
+    background: #f3f4f6;
+}
+
+
+.start-coding-button {
+    border: none;
+
+    background: #2563eb;
+
+    color: white;
+}
+
+
+.start-coding-button:hover {
+    background: #1d4ed8;
+}
+
+
+@media (max-width: 600px) {
+
+    .coding-setup {
+        padding: 15px;
+    }
+
+    .coding-setup-card {
+        padding: 25px;
+    }
+
+    .setup-buttons {
+        flex-direction: column;
+    }
+}
