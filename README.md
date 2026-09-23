@@ -676,13 +676,3 @@ A formal open-source license can be added if the project is intended for public 
 
 ```
 
-### One small recommendation
-
-Since this is going on your GitHub as a **portfolio project**, I'd also add **2–4 screenshots of the actual application** under a `screenshots/` folder and add them to the README. That will make the repository much easier for a recruiter to understand at a glance.
-
-Your repository is already live here:
-
-[github.com/Kdhanesh61/ai-mock-interview](https://github.com/Kdhanesh61/ai-mock-interview?utm_source=chatgpt.com)
-
-If you want, I can also give you the **exact Windows commands to replace the current README and push this new README to GitHub**.
-```
